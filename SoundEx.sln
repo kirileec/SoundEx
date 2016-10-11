@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundEx", "SoundEx\SoundEx.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundEx.Module.Log", "SoundEx.Module.Log\SoundEx.Module.Log.csproj", "{AB8B448C-DD74-4D60-A041-3E5D03A32180}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundEx.Infrastructure", "SoundEx.Infrastructure\SoundEx.Infrastructure.csproj", "{047734E8-ED81-4304-91F8-10F143DE8684}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundEx.Module.PlayButtonList", "SoundEx.Module.PlayButtonList\SoundEx.Module.PlayButtonList.csproj", "{82616DDB-CC82-427F-A085-AC212C3E8464}"
@@ -18,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TODO.md = TODO.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundEx.Module.LogView", "SoundEx.Module.LogView\SoundEx.Module.LogView.csproj", "{AB8B448C-DD74-4D60-A041-3E5D03A32180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,10 +28,6 @@ Global
 		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.Build.0 = Release|Any CPU
 		{047734E8-ED81-4304-91F8-10F143DE8684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{047734E8-ED81-4304-91F8-10F143DE8684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{047734E8-ED81-4304-91F8-10F143DE8684}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,6 +40,10 @@ Global
 		{DEDC1EF9-1E6F-4F61-A326-43A95E2D2F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEDC1EF9-1E6F-4F61-A326-43A95E2D2F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEDC1EF9-1E6F-4F61-A326-43A95E2D2F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8B448C-DD74-4D60-A041-3E5D03A32180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
