@@ -5,6 +5,7 @@ using SoundEx.Views;
 using System.Windows;
 using Prism.Logging;
 using SoundEx.Log;
+using SoundEx.Infrastructure.Interfaces;
 
 namespace SoundEx
 {
@@ -14,6 +15,15 @@ namespace SoundEx
         {
             return Container.Resolve<MainWindow>();
         }
+
+        protected override void ConfigureContainer()
+        {
+            RegisterTypeIfMissing(typeof(ISetRichTextBox), typeof(RichTextBoxAppender), true);
+
+            base.ConfigureContainer();
+
+        }
+
 
         protected override void InitializeShell()
         {
@@ -31,5 +41,9 @@ namespace SoundEx
         {
             return new Log4NetLogger();
         }
+
+
+
+
     }
 }

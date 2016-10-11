@@ -15,6 +15,12 @@ namespace SoundEx.Module.Control.ViewModels
         public ControlPanelViewModel()
         {
             this.AddFileCommand = new DelegateCommand(AddFile);
+            LogCommand = new DelegateCommand(LogSomething);
+        }
+
+        private void LogSomething()
+        {
+            _logger.Log("Hello World", Prism.Logging.Category.Info, Prism.Logging.Priority.None);
         }
 
         private void AddFile()
@@ -40,7 +46,7 @@ namespace SoundEx.Module.Control.ViewModels
         }
 
         public DelegateCommand AddFileCommand { get; set; }
-
+        public DelegateCommand LogCommand { get; set; }
 
     }
 }

@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using Prism.Events;
+using SoundEx.Infrastructure.Events;
+using SoundEx.Log;
+using System.Windows;
 
 namespace SoundEx.Views
 {
@@ -7,9 +10,10 @@ namespace SoundEx.Views
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(IEventAggregator eventAggregator)
         {
             InitializeComponent();
+            
         }
     }
 }

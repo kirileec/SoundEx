@@ -19,7 +19,7 @@
                 Width="50"
                 Height="20"
                 Margin="10"
-                Command="{Binding AddFileCommand}"
+                Command="{Binding LogCommand}"
                 Content="添加文件" />
         <Button Grid.Row="2"
                 Width="50"

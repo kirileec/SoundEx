@@ -1,8 +1,11 @@
 ﻿using Prism.Mvvm;
+using SoundEx.Infrastructure.Bases;
+using Microsoft.Practices.Unity;
+using SoundEx.Infrastructure.Events;
 
 namespace SoundEx.ViewModels
 {
-    public class MainWindowViewModel : BindableBase
+    public class MainWindowViewModel : ViewModelBase
     {
         private string _title = "SoundEx";
         public string Title
@@ -13,6 +16,8 @@ namespace SoundEx.ViewModels
 
         public MainWindowViewModel()
         {
+
+           
 
         }
     }
